@@ -1,9 +1,49 @@
+@keyframes puppy {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+@-webkit-keyframes puppy{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+@keyframes blender {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+@-webkit-keyframes blender {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+.blenders{
+  animation-name: blender;
+  animation-delay: 0.5s;
+  -webkit-animation-name: blender;
+  animation-duration: 5s;
+}
+
+.puppys{
+  animation-name: puppy;
+  animation-delay: 0.5s;
+  -webkit-animation-name: puppy;
+  animation-duration: 5s;
+  border-radius: 50%;
+}
+
 .center{
 
 text-align: center;
 display: block;
 margin: 0 auto;
 }
+
+.inline{
+  display:inline !important;
+}
+
 h1{
  color: black;
 }
@@ -16,6 +56,9 @@ font-size: 20px;
 body{
   font-family: 'PT Sans', sans-serif;
 
+  background-image: url("../images/landscape3.jpg.lnk");
+  background-size: cover;
+  margin: 0px;
 
 }
 
@@ -31,7 +74,7 @@ color: black;
 }
 
 .nav-link:hover{
-  color: green;
+  color: #70FF58;
   font-size: 23px;
 }
 
@@ -41,4 +84,23 @@ color: black;
 text-align: center;
 display: block;
 margin: 0 auto
+}
+
+.blender{
+  height: 400px;
+  width: 400px;
+  text-align: center;
+  display: block;
+  margin: 0 auto
+}
+
+.nav{
+  margin: 0px;
+  padding: 0px;
+  background-color: #0DBEFF
+}
+
+.nav-container{
+  margin: 0px;
+  padding: 0px 0px;
 }
