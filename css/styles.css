@@ -25,6 +25,10 @@
   animation-duration: 5s;
 }
 
+.table{
+  border-color: black;
+}
+
 .puppys{
   animation-name: puppy;
   animation-delay: 0.5s;
@@ -48,14 +52,22 @@ h1{
  color: black;
 }
 
+.bigger{
+  font-size: 8em;
+}
+
+.chart{
+  color: black;
+}
+
 li{
 display: inline;
 padding: 10px;
 font-size: 20px;
 }
 body{
-  font-family: 'PT Sans', sans-serif;
-
+  font-family: 'Kurale', serif;
+  color: black;
   background-image: url("../images/landscape3.jpg.lnk");
   background-size: cover;
   margin: 0px;
