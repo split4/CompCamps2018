@@ -119,7 +119,7 @@ margin: 0 auto
 .nav{
   margin: 0px;
   padding: 0px;
-    background: linear-gradient(to top left, #33ccff 0%, #ff743e 100%);
+  background: color blue;
 }
 
 .nav-container{
@@ -135,7 +135,8 @@ margin: 0 auto
 body{
   font-family: 'Kurale', serif;
   color: black;
-    background: color black;    background: linear-gradient(to top left, #33ccff 0%, #ff743e 100%);
+background: linear-gradient(to top left, #33ccff 0%, #ff743e 100%);
+background-size: 100%;
   margin: 0px;
 }
 
